@@ -1,0 +1,22 @@
+// .img {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+// }
+
+.imagem {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.TextCardArtItem {
+   padding: 1.5rem;
+}
+
+
+@media (max-width: 440px) {
+   Img {
+      width: 50px;
+   }
+}
