@@ -1,6 +1,5 @@
 .Navbar {
-  background: #0000d032;
-
+  background: #9bb2a032;
 }
 
 .Link {
@@ -11,6 +10,14 @@
   font-weight: var(--bs-nav-link-font-weight);
   color: var(--bs-nav-link-color);
   text-decoration: none;
+}
+
+.Link:hover {
+  color: #000;
+}
+
+.LinkDropDownTitle:hover {
+  color: #000;
 }
 
 .LinkDropDown {
@@ -25,4 +32,9 @@
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+}
+
+.LinkDropDown:hover {
+  color: #0e0d0d8c;
+  ;
 }

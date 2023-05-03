@@ -9,13 +9,14 @@
 .cardItem {
    width: 25rem;
    margin: 0.2rem;
+   margin-top: 1.5rem;
+   border: 1px solid #b2b1b1;
 }
 
 .cardItem:hover {
-   -webkit-box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
-   -moz-box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
-   box-shadow: 3px 6px 53px -22px rgba(0,0,0,0.75);
+	transform: scale(1.03);
 }
+
 
 
 @media (max-width: 440px) {

@@ -1,8 +1,7 @@
-import S from './styles.module.scss'
+import S from './styles.module.scss';
 
-import { Cards } from '../../components/cards/Cards'
-import { Footer } from '../../components/Footer/Footer'
-import NavBar from '../../components/Nav'
+import { Cards } from '../../components/cards/Cards';
+import  NavBar  from '../../components/Nav/Nav';
 
 const cardsData = [
   {
@@ -26,7 +25,7 @@ const cardsData = [
 export function Initial() {
   return (
     <div className={S.containerAll}>
-      <NavBar/>
+      <NavBar />
 
       <div className={S.containerCards}>
         {cardsData.map((card, index) => (
@@ -40,8 +39,6 @@ export function Initial() {
           />
         ))}
       </div>
-
-      {/* <Footer/> */}
     </div>
   )
 }
