@@ -9,17 +9,9 @@
    align-items: center;
    justify-content: center;
    gap: 4rem;
-   margin: 2rem;
+   margin: 1rem;
    flex-wrap: wrap;
 }
-
-// .divArtItem :hover {
-//    box-shadow: 3px 6px 53px 7px rgba(0,0,0,0.75);;
-//    -webkit-box-shadow: 3px 6px 53px 7px rgba(0,0,0,0.75);
-//    -moz-box-shadow: 3px 6px 53px 7px rgba(0,0,0,0.75);
-// }
-
-
 
 .ImgArtItem {
    width: 570px;
@@ -33,6 +25,15 @@
    line-height: 160%;
 }
 
+@media (max-width: 1185px) {
+   .ImgArtItem {
+      width: 520px;
+   }
+   .descriptionArtItem {
+      width: 35%;
+   }
+
+}
 @media (max-width: 1024px) {
    .ImgArtItem {
       width: 700px;
@@ -54,11 +55,11 @@
 
 @media (max-width: 820px) {
    .ImgArtItem {
-      width: 630px;
+      width: 730px;
       height: 400px;
    }
    .descriptionArtItem {
-      width: 80%;
+      width: 90%;
    }
 }
 
@@ -68,7 +69,16 @@
       height: 400px;
    }
    .descriptionArtItem {
-      width: 90%;
+      width: 87%;
+   }
+}
+@media (max-width: 668px) {
+   .ImgArtItem {
+      width: 530px;
+      height: 400px;
+   }
+   .descriptionArtItem {
+      width: 85%;
    }
 }
 
@@ -82,13 +92,33 @@
    }
 }
 
+@media (max-width: 497px) {
+   .ImgArtItem {
+      width: 430px;
+      height: 250px;
+   }
+   .descriptionArtItem {
+      width: 91%;
+   }
+}
+
+@media (max-width: 455px) {
+   .ImgArtItem {
+      width: 370px;
+      height: 250px;
+   }
+   .descriptionArtItem {
+      width: 85%;
+   }
+}
+
 @media (max-width: 414px) {
    .ImgArtItem {
       width: 340px;
       height: 250px;
    }
    .descriptionArtItem {
-      width: 100%;
+      width: 90%;
    }
 }
 
@@ -98,7 +128,7 @@
       height: 250px;
    }
    .descriptionArtItem {
-      width: 90%;
+      width: 87%;
    }
 }
 
@@ -109,11 +139,9 @@
       height: 250px;
    }
    .descriptionArtItem {
-      width: 100%;
+      width: 93%;
    }
 }
-
-
 
 @media (max-width: 360px) {
    .ImgArtItem {
@@ -121,14 +149,9 @@
       height: 250px;
    }
    .descriptionArtItem {
-      width: 100%;
+      width: 94%;
    }
 }
-
-
-
-
-
 
 @media (max-width: 280px) {
    .ImgArtItem {

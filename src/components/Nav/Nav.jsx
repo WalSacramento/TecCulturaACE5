@@ -70,9 +70,9 @@ function NavBar() {
             <Link to="/" className={S.Link}>
               <Nav>Home</Nav>
             </Link>
-            <Link className={S.Link}>
-              <Nav>Realidade Aumentada</Nav>
-            </Link>
+            
+              <a className={S.Link} href="https://app-arjs.vercel.app"><Nav>Realidade Aumentada</Nav></a>
+            
             <NavDropdown className={S.LinkDropDownTitle} title="Conteúdo Tradicional" id="basic-nav-dropdown">
               <Link to='/arts' className={S.LinkDropDown}><Nav>Pontos Turísticos</Nav></Link>
               <NavDropdown.Divider />

@@ -4,7 +4,46 @@
    align-items: stretch;
    justify-content: center;
    flex-wrap: wrap;
+   margin: 1rem;
+}
+
+.divBtns {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   padding: 0.5rem;
+} 
+
+.cardItem {
+   width: 25rem;
+   margin: 0.2rem;
+   margin-top: 1.5rem;
+   border: 1px solid #b2b1b1;
+}
+
+.cardItem:hover {
+	transform: scale(1.03);
 }
 
 
 
+@media (max-width: 440px) {
+
+   .cardItem {
+      width: 23rem;   
+   }
+}
+@media (max-width: 400px) {
+
+   .cardItem {
+      width: 21rem;   
+   }
+}
+
+@media (max-width: 375px) {
+
+   .cardItem {
+      width: 19rem;   
+   }
+}

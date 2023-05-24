@@ -1,22 +1,16 @@
-import S from './styles.module.scss';
+import S from './styles.module.scss'
 
-import { Cards } from '../../components/cards/Cards';
-import  NavBar  from '../../components/Nav/Nav';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+
+import { Cards } from '../../components/cards/Cards'
+import NavBar from '../../components/Nav/Nav'
 
 const cardsData = [
   {
     src: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Penedo_-_Alagoas.jpg',
-    title: 'Realidade Aumentada',
-    description:
-      'Some quick example text to build on the card title and make up the bulk of the card',
-    nameBtn: 'Iniciar a Realidade Aumentada',
-    to: '/'
-  },
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Penedo_-_Alagoas.jpg',
     title: 'Exibir Conteúdo Tradicional',
-    description:
-      'Some quick example text to build on the card title and make up the bulk of the card',
+    description: 'Acesse para iniciar a experiência com conteúdo tracional.',
     nameBtn: 'Exibir as Obras',
     to: '/arts'
   }
@@ -28,6 +22,20 @@ export function Initial() {
       <NavBar />
 
       <div className={S.containerCards}>
+        <div>
+          <Card className={S.cardItem}>
+            <Card.Img variant="top" src='src\img\RAImage.jpeg' style={{ height: '298.5px' }} />
+
+            <Card.Body>
+              <Card.Title>Realidade Aumentada</Card.Title>
+              <Card.Text>Acesse para iniciar a experiência de realidade aumentada.</Card.Text>
+
+              <div className={S.divBtns}>
+                <a href="https://app-arjs.vercel.app"><Button variant="primary">Acessar Realidade Aumentada</Button></a>                
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
         {cardsData.map((card, index) => (
           <Cards
             key={index}

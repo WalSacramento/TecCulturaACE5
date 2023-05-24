@@ -1,18 +1,19 @@
 import { Cards } from "../../components/cards/Cards";
 import S from "./styles.module.scss";
 
-import ImgRocheira from '../../img/rocheira.jpg';
-import PaçoImperial from '../../img/paçoImperial.jpg';
-import MercadoPublico from '../../img/mercadoPublico.jpg';
-import RosarioDosPretos from '../../img/rosarioDosPretos.jpg';
-import Teatro from '../../img/teatro.jpg';
-import Correntes from '../../img/correntes.jpg';
-import CasaDaAposentadoria from '../../img/casaDaAposentadoria.jpg';
-import Convento from '../../img/convento.jpg';
-import SantaCruz from '../../img/santaCruz.jpg';
-import Catedral from '../../img/catedral.jpg';
-import CasaDoPenedo from '../../img/casaDoPenedo.jpg';
-import OratorioDaForca from '../../img/oratorioDaForca.jpg';
+import ImgRocheira from "../../img/larger/rocheira_larger.png";
+import PaçoImperial from "../../img/larger/paco_imperial_larger.png";
+import MercadoPublico from "../../img/larger/mercado_publico_larger.png";
+import RosarioDosPretos from "../../img/larger/nossa_senhora_do_rosario_dos_pretos_larger.png";
+import Teatro from "../../img/larger/teatro_larger.png";
+import Correntes from "../../img/larger/nossa_senhora_das_correntes_larger.png";
+import CasaDaAposentadoria from "../../img/larger/casa_da_aposentadoria_larger.png";
+import Convento from "../../img/larger/convento_larger.png";
+import SantaCruz from "../../img/larger/santa_cruz_larger.png";
+import Catedral from "../../img/larger/catedral_larger.png";
+import CasaDoPenedo from "../../img/larger/casa_do_penedo_larger.png";
+import OratorioDaForca from "../../img//larger/oratorio_larger.png";
+
 import NavBar from "../../components/Nav/Nav";
 
 
