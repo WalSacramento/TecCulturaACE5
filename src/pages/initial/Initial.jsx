@@ -6,6 +6,8 @@ import Card from "react-bootstrap/Card";
 import { Cards } from '../../components/cards/Cards'
 import NavBar from '../../components/Nav/Nav'
 
+import ImgRA from "../../img/RAImage.jpeg";
+
 const cardsData = [
   {
     src: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Penedo_-_Alagoas.jpg',
@@ -24,7 +26,7 @@ export function Initial() {
       <div className={S.containerCards}>
         <div>
           <Card className={S.cardItem}>
-            <Card.Img variant="top" src='src\img\RAImage.jpeg' style={{ height: '298.5px' }} />
+            <Card.Img variant="top" src={ImgRA} style={{ height: '298.5px' }} />
 
             <Card.Body>
               <Card.Title>Realidade Aumentada</Card.Title>
